@@ -10,10 +10,12 @@ body {
     border: 10px double rosybrown;
     font-family: 'Brush Script MT', cursive;
     color:darkred;
-    font-size: calc(2vw + 2em)
+    font-size: 9vw
 }
 
-
+.ingr{
+    font-weight: lighter;
+}
 
 #desc{
     font-family: 'Times New Roman', Times, serif;

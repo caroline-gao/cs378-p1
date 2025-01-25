@@ -6,15 +6,14 @@ body {
     margin-top: 50px;
 }
 
-img {
-    display: block;
-    margin: auto;
-}
-
-#tlctitle{
+#head{
+    border: 10px double rosybrown;
     font-family: 'Brush Script MT', cursive;
     color:darkred;
+    font-size: calc(2vw + 2em)
 }
+
+
 
 #desc{
     font-family: 'Times New Roman', Times, serif;
@@ -23,8 +22,4 @@ img {
 #meowchelin{
     font-family: 'Times New Roman', Times, serif;
     font-style:oblique;
-}
-
-#logo {
-    border: 10px double rosybrown
 }

@@ -1,91 +1,132 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Import Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
 
     <!-- Import your style.css stylesheet -->
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="style.css" />
   </head>
   <!-- Implement below this point -->
   <body>
     <div class="container">
-      <div class="row mx-3">
-        <div class="col" id="logo">
-          <img src="tlc.jpg" class="w-50" alt="The Lucky Cat Logo"/>
-          <div class="text-center fs-2" id="tlctitle">The Lucky Cat</div>
+        <div class="row mx-2 align-items-center" id="head">
+          <div class="col-5" id="logo">
+            <img src="tlc.jpg" class="w-100" alt="The Lucky Cat Logo" />
+          </div>
+          <div class="col me-2 text-center align-items-center" id="tlctitle>">
+            The Lucky Cat
+          </div>
         </div>
-      </div>
     </div>
 
     <div class="my-3">
-      <div class="text-center fs-6" id="desc">Crafted by the master chef's paw</div>
+      <div class="text-center fs-6" id="desc">
+        Crafted by the master chef's paw
+      </div>
       <div class="text-center fs-6" id="meowchelin">Meowchelin Star 2025</div>
     </div>
 
     <div class="container">
       <div class="row mx-3">
         <div class="col-4">
-          <div class="w-100 h-100" style="position: relative; padding-top: 100%; border-radius: 10px; overflow: hidden;">
-            <img src="fish.jpg" alt="Sheepshead Seabream" class="img-fluid" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+          <div
+            class="w-100 h-100"
+            style="
+              position: relative;
+              padding-top: 100%;
+              border-radius: 10px;
+              overflow: hidden;
+            "
+          >
+            <img
+              src="fish.jpg"
+              alt="Sheepshead Seabream"
+              class="img-fluid"
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              "
+            />
           </div>
         </div>
         <div class="col-7">
           <div class="row justify-content-center">
-            <div class="dish fs-4">
-            Sheepshead Seabream
-            </div>
+            <div class="dish fs-5">Sheepshead Seabream</div>
           </div>
           <div class="row justify-content-center">
             <div class="ingr fs-6">
-            pan seared, house made risotto, Meyer lemon beurre blanc
+              pan seared, house made risotto, Meyer lemon beurre blanc
             </div>
           </div>
-          <div class="row justify-content-between align-items-center">
+          <div class="row mt-2 justify-content-between align-items-center">
             <div class="col-auto">
               <div class="price fs-6">40</div>
             </div>
             <div class="col-auto">
-              <div style="display: inline-block; padding: 5px 10px;border-radius: 20px; background-color: gainsboro; text-align: center;">
-                Add
-            </div>
+              <button type="button" style="border-radius:10px; background-color: cornsilk">Add</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-    
+
     <div class="container">
       <div class="row mx-3">
         <div class="col-4">
-          <div class="w-100 h-100" style="position: relative; padding-top: 100%; border-radius: 10px; overflow: hidden;">
-            <img src="mignon.jpg" alt="Filet Mignon" class="img-fluid" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+          <div
+            class="w-100 h-100"
+            style="
+              position: relative;
+              padding-top: 100%;
+              border-radius: 10px;
+              overflow: hidden;
+            "
+          >
+            <img
+              src="mignon.jpg"
+              alt="Filet Mignon"
+              class="img-fluid"
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              "
+            />
           </div>
         </div>
         <div class="col-7">
           <div class="row justify-content-center">
-            <div class="dish fs-4">
-            8 oz. Filet Mignon
-            </div>
+            <div class="dish fs-4">8 oz. Filet Mignon</div>
           </div>
           <div class="row justify-content-center">
             <div class="ingr fs-6">
-            100% Green Grass Farms natural beef, pasture raised, served with house sauce or Bearnaise
+              100% Green Grass Farms natural beef, pasture raised, served with
+              house sauce or Bearnaise
             </div>
           </div>
-          <div class="row justify-content-between align-items-center">
+          <div class="row mt-2 justify-content-between align-items-center">
             <div class="col-auto">
               <div class="price fs-6">52</div>
             </div>
             <div class="col-auto">
-              <div style="display: inline-block; padding: 5px 10px;border-radius: 20px; background-color: gainsboro; text-align: center;">
-                Add
-            </div>
+              <button type="button" style="border-radius:10px; background-color: cornsilk">Add</button>
             </div>
           </div>
         </div>
@@ -95,36 +136,51 @@
     <div class="container">
       <div class="row mx-3">
         <div class="col-4">
-          <div class="w-100 h-100" style="position: relative; padding-top: 100%; border-radius: 10px; overflow: hidden;">
-            <img src="paillard.jpg" alt="Chicken Paillard" class="img-fluid" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
+          <div
+            class="w-100 h-100"
+            style="
+              position: relative;
+              padding-top: 100%;
+              border-radius: 10px;
+              overflow: hidden;
+            "
+          >
+            <img
+              src="paillard.jpg"
+              alt="Chicken Paillard"
+              class="img-fluid"
+              style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              "
+            />
           </div>
         </div>
         <div class="col-7">
           <div class="row justify-content-center">
-            <div class="dish fs-4">
-            Chicken Paillard
-            </div>
+            <div class="dish fs-4">Chicken Paillard</div>
           </div>
           <div class="row justify-content-center">
             <div class="ingr fs-6">
-            arugula, roasted vegetables, dressed with olive oil and lemon
+              arugula, roasted vegetables, dressed with olive oil and lemon
             </div>
           </div>
-          <div class="row justify-content-between align-items-center">
+          <div class="row mt-2 justify-content-between align-items-center">
             <div class="col-auto">
               <div class="price fs-6">37</div>
             </div>
             <div class="col-auto">
-              <div style="display: inline-block; padding: 5px 10px;border-radius: 20px; background-color: gainsboro; text-align: center;">
-                Add
-            </div>
+              <button type="button" style="border-radius:10px; background-color: cornsilk">Add</button>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-
-    </div>
+    <div class="row mb-3"></div>
   </body>
 </html>

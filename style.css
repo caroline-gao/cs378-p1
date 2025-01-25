@@ -1,3 +1,30 @@
 body {
-    color: hotpink;
+    color: black;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#tlctitle{
+    font-family: 'Brush Script MT', cursive;
+    color:darkred;
+}
+
+#desc{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#meowchelin{
+    font-family: 'Times New Roman', Times, serif;
+    font-style:oblique;
+}
+
+#logo {
+    border: 10px double rosybrown
 }
